@@ -20,6 +20,7 @@
 import type { ComponentType } from 'react';
 
 // <custom:intent-imports>
+import { IconPlayerPlay } from '@tabler/icons-react';
 // </custom:intent-imports>
 
 export interface IntentLink {
@@ -42,6 +43,7 @@ export interface IntentLink {
 
 export const INTENTS: IntentLink[] = [
   // <custom:intents>
+  { path: '/intents/interaktion-aktiv-setzen', label: { de: 'Interaktion aktiv setzen', en: 'Activate interaction' }, icon: IconPlayerPlay, description: 'Interaktion für ihre Veranstaltung aktiv setzen und QR-Code öffnen' },
   // </custom:intents>
 ];
 
@@ -52,7 +54,7 @@ export const INTENTS: IntentLink[] = [
  * purpose — a scaffold update resets it to false (self-healing if Phase 2
  * never ran).
  */
-export const INTENTS_PENDING = true;
+export const INTENTS_PENDING = false;
 
 /**
  * When the Phase-1 bundle was deployed (ISO, set by the service together with

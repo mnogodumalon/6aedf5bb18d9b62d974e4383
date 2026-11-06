@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "pages": [
+    {
+      "slug": "feedback-geben",
+      "component": "FeedbackGeben",
+      "title": "Feedback geben",
+      "link_param": {
+        "name": "veranstaltung",
+        "entity": "veranstaltungen",
+        "label_field": "titel"
+      },
+      "endpoints": [
+        {
+          "entity": "interaktionen",
+          "op": "list",
+          "fields": [
+            "frage",
+            "erlaeuterung",
+            "veranstaltung"
+          ],
+          "scope": "r.v_aktiv == True",
+          "scope_description": "zeigt nur Interaktionen, die aktiv sind",
+          "max_records": 100
+        },
+        {
+          "entity": "veranstaltungen",
+          "op": "list",
+          "fields": [
+            "titel",
+            "aktive_interaktion"
+          ],
+          "max_records": 200
+        },
+        {
+          "entity": "feedbacks",
+          "op": "create",
+          "fields": [
+            "interaktion",
+            "feedback_text",
+            "kuerzel",
+            "sende_kennung"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "abschlussbewertung",
+      "component": "Abschlussbewertung",
+      "title": "Abschlussbewertung",
+      "link_param": {
+        "name": "veranstaltung",
+        "entity": "veranstaltungen",
+        "label_field": "titel",
+        "secondary_field": "datum"
+      },
+      "endpoints": [
+        {
+          "entity": "veranstaltungen",
+          "op": "list",
+          "fields": [
+            "titel",
+            "datum"
+          ],
+          "max_records": 200
+        },
+        {
+          "entity": "abschlussbewertungen",
+          "op": "create",
+          "fields": [
+            "veranstaltung",
+            "sterne",
+            "kommentar",
+            "email",
+            "einwilligung",
+            "kuerzel"
+          ]
+        }
+      ]
+    }
+  ]
+}
