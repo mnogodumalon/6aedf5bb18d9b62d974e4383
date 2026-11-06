@@ -1,0 +1,30 @@
+{
+  "entities": {
+    "Veranstaltungen": {
+      "placeholders_set": 4,
+      "defaults_keys": [
+        "datum"
+      ],
+      "computed_keys": [],
+      "reason": "Keine Formeln, da nur ein einzelnes Datum und eine Interaktionsauswahl vorhanden sind und keine Menge oder kein Preis berechnet werden kann."
+    },
+    "Interaktionen": {
+      "placeholders_set": 8,
+      "defaults_keys": [],
+      "computed_keys": [],
+      "reason": "Keine Formeln, da die Interaktionen reine Text- und Stammdaten ohne numerische Berechnungskette sind; aktiv ist standardmäßig an."
+    },
+    "Feedbacks": {
+      "placeholders_set": 4,
+      "defaults_keys": [],
+      "computed_keys": [],
+      "reason": "Keine Formeln, da das Formular nur Text- und Verknüpfungsfelder ohne Datums- oder Mengenbezug enthält und Reihenfolge keine Berechnung sinnvoll macht."
+    },
+    "Abschlussbewertungen": {
+      "placeholders_set": 4,
+      "defaults_keys": [],
+      "computed_keys": [],
+      "reason": "Keine Formeln, da es sich um eine Bewertung ohne numerische Berechnungskette handelt, und kein Standardwert ist eindeutig."
+    }
+  }
+}

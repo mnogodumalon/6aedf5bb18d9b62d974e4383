@@ -1,0 +1,33 @@
+{
+  "pages": {
+    "en": {
+      "Abschlussbewertungen": "Final ratings",
+      "Aktiv": "Active",
+      "Aktiv setzen": "Set active",
+      "Aktueller Schritt": "Current step",
+      "Alle Feedbacks sind mit einer KI-Antwort ausgewertet.": "All feedback has been analyzed with an AI response.",
+      "Antwort der KI": "AI response",
+      "Antwort des Chatbots hier einfügen …": "Paste chatbot response here …",
+      "Antwort speichern": "Save response",
+      "Auszuwerten": "To be analyzed",
+      "Diese Veranstaltung hat noch keine Interaktionen.": "This event has no interactions yet.",
+      "Feedbacks der aktiven Interaktion": "Feedback for the active interaction",
+      "KI-Antwort gespeichert": "AI response saved",
+      "Keine Interaktion aktiv": "No interaction active",
+      "Lege deine erste Veranstaltung an.": "Create your first event.",
+      "Neue Interaktion": "New interaction",
+      "Neue Veranstaltung": "New event",
+      "Noch keine Veranstaltung angelegt.": "No event created yet.",
+      "QR-Code zeigen": "Show QR code",
+      "Setze eine Interaktion aktiv": "Set an interaction active",
+      "Sterne": "Stars",
+      "Zusammenfassen": "Summarize",
+      "kommen live herein": "arriving live",
+      "Ø {0} von 5 Sternen": "Avg. {0} of 5 stars",
+      "„{0}“ ist jetzt aktiv": "\"{0}\" is now active",
+      "„{0}“ läuft — gerade aktiv: „{1}“.": "\"{0}\" is running — currently active: \"{1}\".",
+      "„{0}“ — noch keine Interaktion aktiv.": "\"{0}\" — no interaction active yet."
+    }
+  },
+  "v": 1
+}
